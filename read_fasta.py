@@ -12,6 +12,8 @@ def read_fasta(filename):
             sequence=sequence+line
     f.close()
     return sequence
+# we are so close to being done 
+#print friendly message if used incorrectly
 
 if len(sys.argv) < 2
 	print('Usage:', sys.argv[0], '<sequence.fa>')
